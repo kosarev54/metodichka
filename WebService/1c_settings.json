@@ -1,0 +1,20 @@
+{
+  "base_url": "http://localhost/infoBase2/hs/Exchange",
+  "timeout": 10,
+  "verify_ssl": false,
+  "use_auth": false,
+  "login": "bitrix",
+  "password": "Admin123!",
+  "default_method": "POST",
+  "endpoints": {
+    "clients": "/clients",
+    "employees": "/employees",
+    "warehouses": "/warehouses",
+    "nomenclature": "/nomenclature",
+    "goods_receipts": "/goods_receipts",
+    "service_docs": "/service_docs"
+  },
+  "headers": {
+    "Content-Type": "application/json"
+  }
+}
